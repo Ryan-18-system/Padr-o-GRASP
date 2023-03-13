@@ -21,7 +21,31 @@ public class DVD {
         return codigoDePreco;
     }
 
-    public void setCodigoDePreco(int codigoDePreco) {
-        this.codigoDePreco = codigoDePreco;
+    public double valorDoAluguel(double preco, int diasAlugados){
+        switch(this.getCodigoDePreco()) {
+            case DVD.NORMAL: // R$ 2.00 por 2 dias. O dia adicional acrescenta R$ 1.50
+                preco += 2.0;
+                if(diasAlugados > 2) {
+                    preco += (diasAlugados - 2) * 1.5;
+                }
+                break;
+
+            case DVD.LANÇAMENTO: // R$ 3.00 por dia
+                preco += diasAlugados * 3.00;
+                break;
+
+            case DVD.INFANTIL: // R$ 1.50 por 3 dias. O dia adicional acrescenta R$ 1.50
+                preco += 1.5;
+
+                if(diasAlugados > 3) {
+                    preco += (diasAlugados - 3) * 1.5;
+                }
+                break;
+        }
+        return preco;
+
+    }
+    public int getPontosDeAlugadorFrequente(int diasAlugados){
+        return this.getCodigoDePreco() == DVD.LANÇAMENTO && diasAlugados > 1 ? 2 : 1;
     }
 }
