@@ -2,16 +2,9 @@ package br.edu.ifpb.locadora;
 
 
 public class Aluguel {
-    private DVD dvd;
-    private int diasAlugado;
+    private  DVD dvd;
+    private  int diasAlugado;
     private double preco;
-
-    public double getPreco() {
-        return preco;
-    }
-
-
-
 
 
     public Aluguel(DVD dvd, int diasAlugado) {
@@ -31,7 +24,8 @@ public class Aluguel {
     }
 
     public double valorDoAluguel(){
-        return this.getDVD().valorDoAluguel(this.preco,diasAlugado);
+        this.preco = this.getDVD().valorDoAluguel(this.getDiasAlugado());
+        return this.preco;
 
     }
     public int getPontosDeAlugadorFrequente(){

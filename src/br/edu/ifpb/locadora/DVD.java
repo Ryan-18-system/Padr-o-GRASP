@@ -21,7 +21,8 @@ public class DVD {
         return codigoDePreco;
     }
 
-    public double valorDoAluguel(double preco, int diasAlugados){
+    public double valorDoAluguel(int diasAlugados){
+        double preco = 0.0;
         switch(this.getCodigoDePreco()) {
             case DVD.NORMAL: // R$ 2.00 por 2 dias. O dia adicional acrescenta R$ 1.50
                 preco += 2.0;
