@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33d7a821-24ee-49d5-bd0a-25edb588d7a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/padrao01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/Aluguel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/DVD.java" afterDir="false" />
-    </list>
+    <list default="true" id="33d7a821-24ee-49d5-bd0a-25edb588d7a0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +54,7 @@
       <workItem from="1678139620243" duration="5704000" />
       <workItem from="1678190415346" duration="1162000" />
       <workItem from="1678216170927" duration="1950000" />
-      <workItem from="1678291464101" duration="4163000" />
+      <workItem from="1678291464101" duration="4433000" />
     </task>
     <servers />
   </component>
