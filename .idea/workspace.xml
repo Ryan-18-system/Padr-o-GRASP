@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="33d7a821-24ee-49d5-bd0a-25edb588d7a0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/Alugavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/Alugavel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/Aluguel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/Aluguel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/Cliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/DVD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/DVD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -62,7 +65,7 @@
       <workItem from="1678190415346" duration="1162000" />
       <workItem from="1678216170927" duration="1950000" />
       <workItem from="1678291464101" duration="4433000" />
-      <workItem from="1678723030162" duration="3075000" />
+      <workItem from="1678723030162" duration="3905000" />
     </task>
     <servers />
   </component>

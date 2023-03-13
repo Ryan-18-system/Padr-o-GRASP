@@ -26,7 +26,7 @@ public class Cliente {
         StringBuilder resultado = new StringBuilder("Registro de Alugueis de " + getNome() + fimDeLinha);
         while(alugueis.hasNext()){
             Aluguel aluguel = alugueis.next();
-            resultado.append(aluguel.getDVD().getTitulo()).append(" ").append(aluguel.valorDoAluguel()).append(fimDeLinha);
+            resultado.append(aluguel.getDVD().getTitulo()).append(" ").append(aluguel.getValorDoAluguel()).append(fimDeLinha);
 
         }
         resultado.append("Valor total pago: R$ ").append(this.getValorTotal()).append(fimDeLinha);
@@ -43,7 +43,7 @@ public class Cliente {
             // mostra valores para este aluguel
             resultado += cada.getDVD().getTitulo() + ": R$ " +
 
-                    cada.valorDoAluguel() + "<BR>"+ fimDeLinha;
+                    cada.getValorDoAluguel() + "<BR>"+ fimDeLinha;
         }
         resultado += "<P>Valor total pago: <EM>R$ " + getValorTotal() +
                 "</EM>"+ fimDeLinha;
@@ -55,7 +55,7 @@ public class Cliente {
     private double getValorTotal(){
         double valorTotal = 0;
         for (Aluguel aluguel : dvdsAlugados) {
-            valorTotal += aluguel.valorDoAluguel();
+            valorTotal += aluguel.getValorDoAluguel();
         }
         return valorTotal;
     }

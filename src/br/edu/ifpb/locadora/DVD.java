@@ -1,12 +1,12 @@
 package br.edu.ifpb.locadora;
 
-public class DVD {
+public class DVD implements Alugavel {
     public static final int NORMAL = 0;
     public static final int LANÇAMENTO = 1;
     public static final int INFANTIL = 2;
 
-    private String titulo;
-    private int codigoDePreco;
+    private final String titulo;
+    private final int codigoDePreco;
 
     public DVD(String titulo, int codigoDePreco) {
         this.titulo = titulo;
@@ -21,7 +21,7 @@ public class DVD {
         return codigoDePreco;
     }
 
-    public double valorDoAluguel(int diasAlugados){
+    public double getValorDoAluguel(int diasAlugados){
         double preco = 0.0;
         switch(this.getCodigoDePreco()) {
             case DVD.NORMAL: // R$ 2.00 por 2 dias. O dia adicional acrescenta R$ 1.50
