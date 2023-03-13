@@ -1,6 +1,8 @@
 package br.edu.ifpb.locadora;
 
 
+import br.edu.ifpb.locadora.interfaces.Alugavel;
+
 public class Aluguel {
     private Alugavel alugavel;
     private  int diasAlugado;
