@@ -1,10 +1,10 @@
-package br.edu.ifpb.locadora;
+package br.edu.ifpb.locadora.model;
 
-import br.edu.ifpb.locadora.abstracts.Classificacao;
+import br.edu.ifpb.locadora.classificacoes.Classificacao;
 import br.edu.ifpb.locadora.classificacoes.ClassificacaoInfantil;
 import br.edu.ifpb.locadora.classificacoes.ClassificacaoLancamento;
 import br.edu.ifpb.locadora.classificacoes.ClassificacaoNormal;
-import br.edu.ifpb.locadora.interfaces.Alugavel;
+import br.edu.ifpb.locadora.impl.Alugavel;
 
 public class DVD implements Alugavel {
     private Classificacao classificacao;
@@ -28,11 +28,12 @@ public class DVD implements Alugavel {
         } else {
             this.classificacao = new ClassificacaoInfantil();
         }
+        this.codigoDePreco = codigo;
 
     }
 
     public int getCodigoDePreco() {
-        return classificacao.getCódigoDePreço();
+        return classificacao.getCodigoDePreco();
     }
 
     public double getValorDoAluguel(int diasAlugados) {

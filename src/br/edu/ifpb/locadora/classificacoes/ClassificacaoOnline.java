@@ -1,20 +1,20 @@
 package br.edu.ifpb.locadora.classificacoes;
 
-public class ClassificacaoInfantil extends Classificacao {
-    private static final int INFANTIL = 2;
+public class ClassificacaoOnline extends Classificacao {
+    private static final int ONLINE = 3;
     @Override
     public int getCodigoDePreco() {
-        return INFANTIL;
+        return ONLINE;
     }
 
     @Override
     public double getValorDoAluguel(int diasAlugados) {
         double preco = 0.0;
-        preco += 1.5;
-
-        if(diasAlugados > 3) {
-            preco += (diasAlugados - 3) * 1.5;
+        preco += 10.0;
+        if(diasAlugados > 4) {
+            preco += (diasAlugados - 4) * 1.5;
         }
+
         return preco;
     }
 }

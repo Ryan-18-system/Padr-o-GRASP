@@ -1,9 +1,10 @@
-import br.edu.ifpb.locadora.Aluguel;
-import br.edu.ifpb.locadora.Cliente;
-import br.edu.ifpb.locadora.DVD;
-import br.edu.ifpb.locadora.classificacoes.ClassificacaoInfantil;
-import br.edu.ifpb.locadora.classificacoes.ClassificacaoLancamento;
-import br.edu.ifpb.locadora.classificacoes.ClassificacaoNormal;
+import br.edu.ifpb.locadora.model.Aluguel;
+import br.edu.ifpb.locadora.model.Cliente;
+import br.edu.ifpb.locadora.model.DVD;
+import br.edu.ifpb.locadora.model.Jogo;
+import br.edu.ifpb.locadora.services.ExtratoHtml;
+import br.edu.ifpb.locadora.services.ExtratoText;
+import br.edu.ifpb.locadora.utils.Console;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,7 +16,10 @@ public class Main {
         c1.adicionaAluguel(new Aluguel(new DVD("Arremessando Alto", 1), 4));
         c1.adicionaAluguel(new Aluguel(new DVD("Moana", 2), 10));
         c1.adicionaAluguel(new Aluguel(new DVD("Uma Noite no Museu", 0), 3));
+        c1.adicionaAluguel(new Aluguel(new Jogo(3,"GTAV", Console.PS5),4));
 
-        System.out.println(c1.extrato());
+        System.out.println(c1.extrato(new ExtratoText()));
+        System.out.printf("======================================"+"\n");
+        System.out.println(c1.extrato(new ExtratoHtml()));
     }
 }

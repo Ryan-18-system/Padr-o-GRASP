@@ -7,9 +7,14 @@
     <list default="true" id="33d7a821-24ee-49d5-bd0a-25edb588d7a0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/Alugavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/interfaces/Alugavel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/Aluguel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/Aluguel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/DVD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/DVD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/Aluguel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/model/Aluguel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/model/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/DVD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/model/DVD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/abstracts/Classificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/classificacoes/Classificacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/classificacoes/ClassificacaoInfantil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/classificacoes/ClassificacaoInfantil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/classificacoes/ClassificacaoLancamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/classificacoes/ClassificacaoLancamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/classificacoes/ClassificacaoNormal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/classificacoes/ClassificacaoNormal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/interfaces/Alugavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/impl/Alugavel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -41,7 +47,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/praticas-fred/refactoring_example_locadora/refactoring_example_locadora",
+    "last_opened_file_path": "E:/praticas-padroes/padrao-grasp/padrao01",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,6 +72,7 @@
       <workItem from="1678216170927" duration="1950000" />
       <workItem from="1678291464101" duration="4433000" />
       <workItem from="1678723030162" duration="7238000" />
+      <workItem from="1679242682926" duration="4988000" />
     </task>
     <servers />
   </component>

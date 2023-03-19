@@ -1,7 +1,7 @@
-package br.edu.ifpb.locadora;
+package br.edu.ifpb.locadora.model;
 
 
-import br.edu.ifpb.locadora.interfaces.Alugavel;
+import br.edu.ifpb.locadora.impl.Alugavel;
 
 public class Aluguel {
     private Alugavel alugavel;

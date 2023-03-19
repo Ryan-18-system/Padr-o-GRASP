@@ -1,4 +1,4 @@
-package br.edu.ifpb.locadora.interfaces;
+package br.edu.ifpb.locadora.impl;
 
 public interface Alugavel {
     String getTitulo();

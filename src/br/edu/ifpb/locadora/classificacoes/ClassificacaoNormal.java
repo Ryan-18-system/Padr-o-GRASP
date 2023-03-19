@@ -1,11 +1,9 @@
 package br.edu.ifpb.locadora.classificacoes;
 
-import br.edu.ifpb.locadora.abstracts.Classificacao;
-
 public class ClassificacaoNormal  extends Classificacao {
     private static final int NORMAL = 0;
     @Override
-    public int getCódigoDePreço() {
+    public int getCodigoDePreco() {
         return NORMAL;
     }
 
