@@ -9,12 +9,6 @@ public class ClassificacaoOnline extends Classificacao {
 
     @Override
     public double getValorDoAluguel(int diasAlugados) {
-        double preco = 0.0;
-        preco += 10.0;
-        if(diasAlugados > 4) {
-            preco += (diasAlugados - 4) * 1.5;
-        }
-
-        return preco;
+        return diasAlugados > 3 ? diasAlugados * 3.00 : diasAlugados  * 4.00;
     }
 }

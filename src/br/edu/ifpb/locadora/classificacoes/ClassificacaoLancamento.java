@@ -9,7 +9,7 @@ public class ClassificacaoLancamento extends Classificacao {
 
     @Override
     public double getValorDoAluguel(int diasAlugados) {
-        return diasAlugados > 3 ? diasAlugados * 3.00 : diasAlugados  * 4.00;
+        return diasAlugados * 3.00;
     }
 
     @Override
