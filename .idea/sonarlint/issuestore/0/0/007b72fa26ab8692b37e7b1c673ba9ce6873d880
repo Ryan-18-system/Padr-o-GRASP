@@ -1,0 +1,7 @@
+
+~
+java:S1450	"\Remove the "codigoDePreco" field and declare it as a local variable in the relevant methods.(’Çàéüÿÿÿÿ8™ÂÖï0
+S
+java:S1068	"1Remove this unused "codigoDePreco" private field.(’Çàéüÿÿÿÿ8ØÏÁÖï0
+H
+java:S1068"+Remove this unused "console" private field.(¹¹›¢8ÙÏÁÖï0
