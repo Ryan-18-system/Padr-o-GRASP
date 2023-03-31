@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33d7a821-24ee-49d5-bd0a-25edb588d7a0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/265b1804a43ddb128268e279e036decd82cd1fec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2b8baf9fecb451a042341db46d64d72375bf5605" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf3a473b26c6c6b33038e4cde81f79d020aa245c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/6/265b1804a43ddb128268e279e036decd82cd1fec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/b/2b8baf9fecb451a042341db46d64d72375bf5605" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/f/cf3a473b26c6c6b33038e4cde81f79d020aa245c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/classificacoes/ClassificacaoLancamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/classificacoes/ClassificacaoLancamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/classificacoes/ClassificacaoOnline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/classificacoes/ClassificacaoOnline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifpb/locadora/model/Cliente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -11,13 +11,5 @@ W
 'src/br/edu/ifpb/locadora/model/DVD.java,4\4\44af5567559901bf3eefdd5d89b65c8361600143
 j
 :src/br/edu/ifpb/locadora/classificacoes/Classificacao.java,2\2\2265018ce96acd0d20ed7d081455d34231367fef
-a
-1src/br/edu/ifpb/locadora/impl/ExtratoService.java,2\6\265b1804a43ddb128268e279e036decd82cd1fec
-b
-2src/br/edu/ifpb/locadora/services/ExtratoHtml.java,c\f\cf3a473b26c6c6b33038e4cde81f79d020aa245c
-b
-2src/br/edu/ifpb/locadora/services/ExtratoText.java,9\3\93c50676bbc645bbb23853354e60d3b70a849eaf
 X
 (src/br/edu/ifpb/locadora/model/Jogo.java,0\0\007b72fa26ab8692b37e7b1c673ba9ce6873d880
-[
-+src/br/edu/ifpb/locadora/model/Cliente.java,2\b\2b8baf9fecb451a042341db46d64d72375bf5605
